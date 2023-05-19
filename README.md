@@ -1,7 +1,7 @@
 
 ## Installation
 
-1. Go to the GitHub repository of the project you want to install.
+1. Go to the (https://github.com/mehari123/usesr-management-system-assignment).
 2. Click the "Code" button and select "Download ZIP" to download the project files.
 3. Extract the ZIP file to a directory of your choice.
 
