@@ -1,4 +1,3 @@
-Sure, here's a step-by-step guide on how to install the project from GitHub, serve it from localhost, and run the above code:
 
 ## Installation
 
@@ -32,12 +31,9 @@ The project consists of several pages:
 
 To navigate between pages, simply click on the links in the navigation menu at the top of each page.
 
-I hope this helps! Let me know if you have any further questions.
 
-
-
-
-Sure, here's a step-by-step guide on how to configure your `php.ini` file, `sendmail.ini` file, and Gmail account to send email using PHP:
+when you add a user it sends email to the addes email but you should configure as the below your server configuration files.
+unless it willn't work 
 
 ## Configure php.ini File
 
@@ -80,27 +76,3 @@ force_sender=your_email@gmail.com
 7. Click on "Generate".
 8. Copy the generated password and use it as the `auth_password` value in your `sendmail.ini` file.
 
-## Sending Email Using PHP
-
-To send email using PHP, use the `mail()` function with the following code:
-
-```
-$to = 'recipient@example.com';
-$subject = 'Test Email';
-$message = 'This is a test email sent from PHP.';
-$headers = 'From: your_email@gmail.com' . "\r\n" .
-           'Reply-To: your_email@gmail.com' . "\r\n" .
-           'X-Mailer: PHP/' . phpversion();
-
-if (mail($to, $subject, $message, $headers)) {
-    echo "Email sent successfully.";
-} else {
-    echo "Email sending failed.";
-}
-```
-
-Replace `recipient@example.com` with the email address of the recipient, and `your_email@gmail.com` with your own email address. 
-
-This code will send an email to the recipient with the subject and message specified in the `$subject` and `$message` variables, respectively. If the email is sent successfully, the message "Email sent successfully." will be displayed. If there is an error sending the email, the message "Email sending failed." will be displayed.
-
-I hope this helps!
